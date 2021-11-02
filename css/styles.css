@@ -40,7 +40,7 @@ h1{
     margin-right: 400px;
 }
 
-spam{
+.spam{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -84,4 +84,83 @@ spam{
 
 .boton-dueno:hover{
     background-color: #ed9078;
+}
+
+.titulo-dueno {
+    text-align: end;
+    width: 58%;
+}
+.logo-dueno {
+    width: 15%;
+    height: 70%;
+}
+.logo-dueno img {
+    width: 65%;
+}
+.main-dueno {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 100%;
+    ;
+    
+    
+    
+}
+
+.inicio-sesion, .formulario {
+    
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    /*margin-bottom: 150px;*/
+    margin-left: 100px;
+    border-radius: 5px;
+ 
+}
+form{
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+ 
+form>div {
+    
+    width: 70%;
+
+}
+input{
+    
+    height: 100%;
+    width: 100%;
+}
+.inicio-sesion{
+    background-color: #ed9078;
+}
+.subt-dueno {
+    background-color: #e76a4b;
+    border-radius: 3px;
+    width: 50%;
+    text-align: center;
+}
+.formulario{
+    background-color:#E9C46A;
+}
+.subt-duenoB{
+    background-color: #dda822;
+    width: 65%;
+    border-radius: 3px;
+    text-align: center;
+}
+.A>div>input {
+    background-color: #fcece9 ;
+}
+.B>div>input {
+    background-color: #f8eed3;
 }
