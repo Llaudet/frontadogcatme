@@ -50,6 +50,13 @@
                 </select>
             </div>
             <div>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sex">
+                    <option value="macho">Macho</option>
+                    <option value="hembra">Hembra</option>
+                </select>
+            </div>
+            <div>
                 <label for="castrado">¿Esta castrado/a?:</label>
                 Si<input type="radio" value="si" name="castrado" id="si">
                 No<input type="radio" value="no" name="castrado" id="no">
@@ -57,6 +64,14 @@
             <div>
                 <label for="imagen">Cargue imagen de su mascota</label>
                 <input type="file" name="imagen" id="imagen">
+            </div>
+            <div>
+                <div>
+                    <label for="descripcion">Ingrese una breve descripcion de su mascota:</label>
+                </div>
+                <div>
+                    <textarea name="descripcion" id="description" cols="40" rows="2"></textarea>
+                </div>
             </div>
             <div class="enviar">
                 <input type="submit" value="Enviar" class="btn boton-enviar">
