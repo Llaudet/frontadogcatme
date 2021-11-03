@@ -64,3 +64,16 @@ form {
     justify-content: space-around;
     align-content: center;
 }
+.enviar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.boton-enviar {   
+    width: 50%;
+    
+}
+.boton-enviar:hover {
+    border: 1px solid black;
+}
