@@ -88,14 +88,18 @@ h1{
 
 .titulo-dueno {
     text-align: end;
-    width: 58%;
+    width: 65%;
 }
 .logo-dueno {
-    width: 15%;
-    height: 70%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .logo-dueno img {
-    width: 65%;
+    width: 30%;
 }
 .main-dueno {
     display: grid;
@@ -109,7 +113,7 @@ h1{
 
 .inicio-sesion, .formulario {
     
-    height: 45%;
+    height: 53%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,4 +167,12 @@ input{
 }
 .B>div>input {
     background-color: #f8eed3;
+}
+
+.boton1:hover, .boton2:hover{
+    border: 1px solid black;
+}
+input[type="file"]{
+    height: 50%;
+   
 }
