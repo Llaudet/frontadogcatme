@@ -70,7 +70,15 @@ main{
     grid-template-areas:
     "column descr descr"
     "column datos btn"
-    "column datos btn"
+    "column datos btn";
+
+    display: grid;
+    grid-template-row: 50% 50%;
+    grid-template-columns: 25% 75%;
+    grid-template-area:
+    "foto desc"
+    "info info" 
+
     ;
 }
 
@@ -102,22 +110,19 @@ h3{
 
 .descr-coint{
     grid-area: descr;
+    background-color: #556177;
+}
+
+.x{
+    display: table;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-25%, -60%);
 
 }
 
-.descr{
-    border: 2px black solid;
-    border-radius: 5px;
-    background-color: #fff;
-
-    margin: 20px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    height: 90%;
-}
-
-.info{    
-    border: 2px black solid;
+.info{   
     grid-area: datos;
     text-align: center;
 }
@@ -135,6 +140,12 @@ h2{
 }
 
 #volver{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+}
+#ver-masc{
     position: absolute;
     left: 50%;
     top: 50%;
