@@ -69,17 +69,9 @@ main{
     grid-template-columns: 25% 37.5% 37.5% ;
     grid-template-areas:
     "column descr descr"
-    "column datos btn"
-    "column datos btn";
+    "column datos datos"
+    "column datos datos";
 
-    display: grid;
-    grid-template-row: 50% 50%;
-    grid-template-columns: 25% 75%;
-    grid-template-area:
-    "foto desc"
-    "info info" 
-
-    ;
 }
 
 .column{
@@ -124,7 +116,7 @@ h3{
 
 .info{   
     grid-area: datos;
-    text-align: center;
+    text-align: left;
 }
 
 h2{
@@ -136,7 +128,8 @@ h2{
 
 .buton{
     position: relative;
-    grid-area: btn;
+    left: ;
+    grid-area: datos;
 }
 
 #volver{
