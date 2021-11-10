@@ -69,9 +69,9 @@ main{
     grid-template-columns: 25% 37.5% 37.5% ;
     grid-template-areas:
     "column descr descr"
-    "column datos btn"
-    "column datos btn"
-    ;
+    "column datos datos"
+    "column datos datos";
+
 }
 
 .column{
@@ -102,24 +102,21 @@ h3{
 
 .descr-coint{
     grid-area: descr;
+    background-color: #556177;
+}
+
+.x{
+    display: table;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-25%, -60%);
 
 }
 
-.descr{
-    border: 2px black solid;
-    border-radius: 5px;
-    background-color: #fff;
-
-    margin: 20px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    height: 90%;
-}
-
-.info{    
-    border: 2px black solid;
+.info{   
     grid-area: datos;
-    text-align: center;
+    text-align: left;
 }
 
 h2{
@@ -131,10 +128,17 @@ h2{
 
 .buton{
     position: relative;
-    grid-area: btn;
+    left: ;
+    grid-area: datos;
 }
 
 #volver{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+}
+#ver-masc{
     position: absolute;
     left: 50%;
     top: 50%;
