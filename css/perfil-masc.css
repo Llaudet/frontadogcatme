@@ -49,47 +49,23 @@ p{
 
 
 
-
-.btn-edicion{
-    margin-top: 2%;
-    margin-right: 10%;
-    background-color: rgba(211, 211, 211, 0.007);
-    border-color: rgba(211, 211, 211, 0);
-    /*Probando*/
-}
-
-.btn-edicion:hover{
-    background-color: darkmagenta;
-    /*Probando - ver efectos e imagenes*/
-}
-
-.btn-edicion img{
-    width: 45px;
-    height: 45px;
-}
-
-
-
 .contenedor{
-    display: flex;
-    align-items: center; /*¿Está de más?*/
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-}
-
-.foto-masc{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.perfil-izq{
     margin-right: 5%;
-    border-radius: 10px;
-    padding-right: 75px;
-    padding-left: 75px;
-    background-color: #4a5568;
-    height: 290px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+
 }
 
 .contenido{
@@ -100,10 +76,36 @@ p{
 
 
 
+.foto-masc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-right: 75px;
+    padding-left: 75px;
+    background-color: #4a5568;
+    height: 250px;
+    width: 260px;
+}
+
 .foto-masc img{
-    width: 240px;
-    height: 240px;
-    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.btn-adoptar{
+    font-size: 150%;
+    border-radius: 50px;
+    width: 90%;
+    background-color: #E76F51;
+    border-color: #E76F51;
+    text-decoration-color: black;
+}
+
+.btn-adoptar:hover{
+    background-color: #ed9078;
 }
 
 
@@ -144,6 +146,10 @@ p{
     border-bottom-right-radius: 10px;
     min-height: 40%;
 }
+  
+
+
+
 
 
 
