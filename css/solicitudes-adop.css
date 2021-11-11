@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,6 +8,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background-color: #8e9aaf;
 }
 header {
     width: 100%;
@@ -16,7 +17,10 @@ header {
     background-color:#F4A261;
     justify-content: center;
 }
-
+ main {
+     height: 75%;
+     width: 100%;
+ }
 h1 {
     width: 65%;
     display: flex;
@@ -26,38 +30,52 @@ h1 {
     font-size: 80px;
 }
 
-.img-solicitudes {
+.img-perfilAdop {
     width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.img-solicitudes img {
+.img-perfilAdop> img {
+
     width: 30%;
 }
 
-main {
-    background-color:#8e9aaf ;
-    height: 75%;
+.contenedor{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 2%;
 }
-h2 {
-    text-align: center;
-}
-.lista {
-    width: 80%;
-   /* display: flex;
-    flex-direction: column;
-    align-items: center;*/
-    background-color: white;
-}
-ul {
+.contenedor-hijo {
+    width: 65%;
     background-color: #E9C46A;
+    display: flex;
+    flex-direction: row;
+}  
+.datos-masc {
+    width: 50%;
+    margin-left: 7px;
 }
-li {
-    margin-left: 1%;
+.foto-masc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto-masc> img {
+    width: 50%;
+    border-radius: 1%;
+    border: 1px solid black;
+}
+
+h2 {
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
