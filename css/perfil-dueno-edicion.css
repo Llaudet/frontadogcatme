@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #8e9aaf;
@@ -63,33 +65,11 @@ h3{
 
 
 
-.foto-masc{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2%;
-    background-color: #5f6d86;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: center;
-}
-
-.foto-masc img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin-bottom: 3%;
-}
-
-
 .titulo{
     background-color: #F4A261;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-top: 1%;
+    padding-top: 0.5%;
     padding-bottom: 0.5%;    
 }
 
@@ -98,73 +78,88 @@ h3{
     display: grid;
     grid-template-rows: repeat(5, 20%);
     grid-template-areas: "nombre" "mail" "ubicacion" "telefono" "contrasena";
-    
-    padding-block: 15px;
+    padding-top: 5%;
+    padding-bottom: 7%;
     margin-bottom: 2%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     text-align: center;
+    font-size: 120%;
+    row-gap: 5%;
+    align-items: center;
 }
 
 
 
 
 label{
-    width: 300px;
+    width: 50%;
     text-align: left;
+    float: left;
 }
 
 .nombre{
     grid-area: nombre;
     display: flex;
-    justify-content: left;
-    margin-left: 25px;
-    /*Ver alineacion entre el label y el input*/
+    justify-content: center;
 }
 
 .mail{
     grid-area: mail;
     display: flex;
-    justify-content: left;
-    margin-left: 25px;
+    justify-content: center;
 }
-
 
 .ubicacion{
     grid-area: ubicacion;
     display: flex;
-    justify-content: left;
-    margin-left: 25px;
+    justify-content: center;
+    
+    /*Ver alineacion entre el label y el input*/
 }
 
 .telefono{
     grid-area: telefono;
     display: flex;
-    justify-content: left;
-    margin-left: 25px;
+    justify-content: center;
+    
 }
 
 .contrasena{
     grid-area: contrasena;
     display: flex;
-    justify-content: left;
-    margin-left: 25px;
+    justify-content: center;
+    
 }
 
 
 #name, #email, #location, #password1, #telephone{
     margin-left: 30px;
+    width: 35%;
 }
+
   
 
 .button-container{
     margin-left: 30%;
     margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-actualizar, .btn-cancelar{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 40%;
+    border-radius: 45px;
+    border: none;
+    padding-block: 2%;
+    
+}
+
+.btn-actualizar:hover, .btn-cancelar:hover{
+    background-color: #ed9078;
 }
 
 
